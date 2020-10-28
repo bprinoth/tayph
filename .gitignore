@@ -60,3 +60,11 @@ pip-wheel-metadata/
 
 # Mac OSX
 .DS_Store
+
+# Folders in fork
+data/
+models/
+cross_correlation/
+output/
+run-file.dat
+

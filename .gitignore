@@ -67,4 +67,6 @@ models/
 cross_correlation/
 output/
 run-file.dat
+run-file1.dat
+run-file2.dat
 

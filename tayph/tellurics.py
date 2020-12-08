@@ -159,7 +159,7 @@ def execute_molecfit(molecfit_prog_root,molecfit_input_file,gui=False):
         os.system(command)
         os.system(command2)
     if gui == True:
-        command = 'python3 '+str(molecfit_prog_root/'molecfit_gui')+' '+str(molecfit_input_file)
+        command = 'pythonw '+str(molecfit_prog_root/'molecfit_gui')+' '+str(molecfit_input_file)
         os.system(command)
     #python3 /Users/hoeijmakers/Molecfit/bin/molecfit_gui /Users/hoeijmakers/Molecfit/share/molecfit/spectra/cross_cor/test.par
 
